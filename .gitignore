@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.log
+coverage/
+.DS_Store
+# Never commit real source data or student data
+database/seeds/verified/*.local.*
+data/private/
+
+# Keep the CSE workload source records and derived import artifacts private.
+/docs/imports/CSE_EVEN_2026_*
+/docs/imports/source/CSE_EVEN_2026_page1.png
+/docs/imports/source/CSE_EVEN_2026_page2.jpe

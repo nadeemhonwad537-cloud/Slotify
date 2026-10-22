@@ -1,0 +1,2 @@
+ALTER TABLE rooms
+  ADD COLUMN location VARCHAR(120) NULL AFTER equipment;
